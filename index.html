@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- navbar -->
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="./calculator/index.html">calculator</a>
+            <a href="#contact">Contact</a>
+            <a href="#" ><i id="sun" class="fa-solid fa-sun"></i></a>
+        </nav>
+    </header>
+    <div class="alert" id="alert">
+        <p>message sent successfully <i onclick="removealert()" class="fa-solid fa-xmark"></i></p>
+    </div>
+
+    <!-- home -->
+    <div  class="home contianer" id="home">
+        <div class="home-content">
+            <h3>Hello it's me</h3>
+            <h1>Prajwal Kapade</h1>
+            <h3>And I'm a <span id="multiple-text"></span></h3>
+            <!-- <h3>And I'm a <span>Full stact Developer</span></h3> -->
+            <p>Lorem ipsum dolor Lorem, ipsum dolor silorpisicing elit. Animi repellendus .t officia quo ab velit amet unde? Omnis, nisi.</p>
+           
+            <a href="#" class="btn">Download cv</a>
+        </div>
+        <div class="home-img">
+            <img src="images/home.jpg" alt="">
+        </div>
+    </div>
+
+
+    
+   
+
+    <!-- contact div -->
+    <div class="contact contianer" id="contact">
+        <h2 class="heading">Contact <span>me</span></h2>
+        <form >
+            <div class="input-box">
+                <input type="text" placeholder="Full name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Mobile number">
+                <input type="text" placeholder="Email subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="your message"></textarea>
+            <!-- <input type="submit" value="Send now" onclick="displayChange()" id="button" class="btn"> -->
+            <button class="btn" id="button" onclick="displayChange()">send now</button>
+        </form>
+    </div>
+
+
+
+
+    <!-- customjs -->
+    <script src="js/script.js"></script>
+</body>
+</html>
